@@ -40,7 +40,7 @@ class MapsFragment : Fragment(R.layout.fragment_maps), OnMapReadyCallback, OnMap
         // it converts the map_type into satellite map_type -->
         googleMap.mapType = GoogleMap.MAP_TYPE_SATELLITE
 
-        // add a marker in sydney and move a camera -->
+        // add a marker in ASSAM and move a camera -->
         val assam = LatLng(26.244156, 92.537842)
         gMap = googleMap
         googleMap.addMarker(
