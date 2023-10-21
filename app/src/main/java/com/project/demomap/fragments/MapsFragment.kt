@@ -160,7 +160,7 @@ class MapsFragment : Fragment(R.layout.fragment_maps), OnMapReadyCallback, OnMap
         // add marker when we click on map -->
         marker = gMap?.addMarker(MarkerOptions().position(latLng).title("myMarker"))
 
-        // store latLng in arrayList -->
+        // store latLng in arrayList -->4
         latLngPosition.add(latLng)
         polygon?.strokeColor = R.color.red
 ////        var marker = MarkerOptions().position.toString()
